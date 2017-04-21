@@ -42,21 +42,21 @@ label{
 	border-left: 5px solid #2b2b2b;
 }
 .main{
-	 border-left: 104px solid #383838;
+	 border-left: 99px solid #383838;
 }
 .top-header {
 	padding: 1.25em 3em 1.25em 2em;
 	background: rgba(255, 255, 255, 0.47);
 }
-.header {
-	background: url('../images/header-bg.jpg') no-repeat 0px 0px;
-	background-size:cover;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	-ms-background-size:cover;
-	min-height:750px;	
-}
+/*.header {*/
+	/*background: url('../images/header-bg.jpg') no-repeat 0px 0px;*/
+	/*background-size:cover;*/
+	/*-webkit-background-size:cover;*/
+	/*-moz-background-size:cover;*/
+	/*-o-background-size:cover;*/
+	/*-ms-background-size:cover;*/
+	/*min-height:750px;	*/
+/*}*/
 .header-info {
 	float:right;
 	padding-top:4em;
@@ -161,7 +161,7 @@ i.video1 {
 .menu {
 	position: fixed;
 	top: 82px;
-	left: 5px;
+
 	 z-index: 2;
 }
 .menu ul li {
@@ -171,6 +171,7 @@ i.video1 {
 .menu ul li a{
 	padding:12px 22px;
 	  display: block;
+	margin-left: -5px;
 }
 .menu ul li a.active {
 	background:#dfb636;
@@ -361,7 +362,7 @@ i.contact1 {
 }
 .nbs-flexisel-ul {
 	position: relative;
-	width: 9999px;
+	width: 7000px;
 	margin: 0px;
 	padding: 0px;
 	list-style-type: none;
@@ -382,7 +383,8 @@ i.contact1 {
 	
 	cursor: pointer;
 	position: relative;
-	  width: 90%;
+	width: 93%;
+
   margin: 0 5%;
 }
 /*** Navigation ***/
@@ -393,8 +395,8 @@ i.contact1 {
 	display:none;
 }	
 .review-slider {
-	background: #dfb636;
-	padding: 3em 0;
+	background: #383838;
+	padding: 1em 0;
 }
 .video iframe {
 	width:100%;
@@ -1212,7 +1214,7 @@ font-weight: 700;
 
 @media screen and (max-width: 1440px) {
 	.header {
-		min-height: 661px;
+		min-height: 116px;
 	}
 	.top-header {
 		padding: 1em 3em 1em 2em;
@@ -1274,7 +1276,7 @@ font-weight: 700;
 		margin: 0px 0 1.8em 0;
 	}
 	.main {
-		border-left: 90px solid #383838;
+		border-left: 85px solid #383838;
 	}
 	.menu ul li a {
 		padding: 10px 15px;
@@ -1301,7 +1303,7 @@ font-weight: 700;
 		font-size: 0.95em;
 	}	
 	.header {
-		min-height: 630px;
+		min-height: 110px;
 	}
 	.logo {
 		width: 36%;
@@ -1372,9 +1374,7 @@ font-weight: 700;
 	.video iframe {
 		min-height: 400px;
 	}
-	.review-slider {
-		padding: 2.5em 0;
-	}
+
 	.header-info h1 {
 		font-size: 2.6em;
 	}
@@ -1397,7 +1397,7 @@ font-weight: 700;
 		margin: 1.5em 0 2em 0;
 	}
 	.header {
-		min-height: 586px;
+		min-height: 97px;
 	}
 	.logo img {
 		width: 90%;
@@ -1418,15 +1418,17 @@ font-weight: 700;
 	}
 }
 @media screen and (max-width: 1024px) {
+	.menu {
+
+		margin-left: 2px;
+	}
 	.main {
-		border-left: 80px solid #383838;
+		border-left: 77px solid #383838;
 	}	
 	.full {
 		border-left: 3px solid #2b2b2b;
 	}
-	.menu {
-		left: 3px;
-	}
+
 	.menu ul li a {
 		padding: 8px 10px;
 	}
@@ -1454,7 +1456,7 @@ font-weight: 700;
 		margin-top: 0.35em;
 	}
 	.header {
-		min-height: 471px;
+		min-height: 89px;
 	}
 	.header-info {
 		float: right;
@@ -1488,9 +1490,7 @@ font-weight: 700;
 		padding: 4px 0 4px 13px;
 		margin: 8px 0 0px 0px;
 	}
-	.review-slider {
-		padding: 1.5em 0;
-	}
+
 	.nbs-flexisel-item > img {
 		width: 94%;
 		margin: 0 3%;
@@ -1604,7 +1604,7 @@ font-weight: 700;
 		margin-top: 1.5em;
 	}
 	.main {
-		border-left: 70px solid #383838;
+		border-left: 67px solid #383838;
 	}
 	.menu ul li a {
 		padding: 5px 5px;
@@ -1634,7 +1634,7 @@ font-weight: 700;
 		width:40%;
 	}
 	.header {
-		min-height: 353px;
+		min-height: 63px;
 	}
 	.header-info h1 {
 		font-size: 1.8em;
@@ -1661,6 +1661,7 @@ font-weight: 700;
 	}	
 	.menu {
 		top: 45px;
+		margin-left: 2px;
 	}
 	.search {
 		padding: 0px 8px;
@@ -1733,7 +1734,7 @@ font-weight: 700;
 }
 @media screen and (max-width: 768px) {
 	.header {
-		min-height: 345px;
+		min-height: 63px;
 	}
 	.news {
 		padding: 2em 0em;
@@ -1773,6 +1774,11 @@ font-weight: 700;
 }
 
 @media screen and (max-width: 640px) {
+
+		.menu {
+
+			margin-left: 4px;
+		}
 	p.claim {
 		width: 85%;
 		margin: 6px 0;
@@ -1785,11 +1791,9 @@ font-weight: 700;
 		border-left: 1px solid #2b2b2b;
 	}
 	.main {
-		border-left: 61px solid #383838;
+		border-left: 59px solid #383838;
 	}
-	.menu {
-		left: 2px;
-	}
+
 	.video iframe {
 		min-height: 270px;
 	}
@@ -1800,7 +1804,7 @@ font-weight: 700;
 		letter-spacing: 0px;
 	}
 	.header {
-		min-height: 325px;
+		min-height: 54px;
 	}
 	p.age,p.review,p.review.reviewgo  {
 		height: 18px;
@@ -2080,10 +2084,10 @@ font-weight: 700;
 		background-size: 266px;
 	}
 	.main {
-		border-left: 46px solid #383838;
+		border-left: 44px solid #383838;
 	}
 	.header {
-		min-height: 220px;
+		min-height: 27px;
 	}
 	.news-left-grid h2 {
 		font-size: 1.45em;
@@ -2209,4 +2213,8 @@ font-weight: 700;
 		height:156px;
 		overflow:hidden;
 	}
+}
+ .full{
+	width:70%;
+	margin: 0 auto;
 }
