@@ -21,10 +21,87 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
           rel='stylesheet' type='text/css'>
 </head>
-<body>
+<style>
+    .menu {
+        display: inline-block;
+        float: left;
+    }
+
+    .content-grids {
+        padding: 5px 0 0 10px;
+    }
+
+    .full {
+        border-left: 5px solid #2b2b2b;
+        background-color: #2b2b2b;
+    }
+
+    .banner-class {
+        padding: 0 10px;
+    }
+
+    .row {
+        margin: 0 !important;
+    }
+    .leftblok_contener2 {
+
+     color: white;
+
+    }
+    .poloska_bloka {
+        border-bottom: 1px solid #848480;
+        border-top: 1px solid #3f413f;
+        position: relative;
+    }
+    .leftblok1 {
+        position: relative;
+        width: 156px;
+        float: left;
+        padding-top: 15px;
+    }
+    .leftblok2 {
+        position: relative;
+        width: 156px;
+        float: left;
+        padding-top: 15px;
+    }
+    .mini {
+        padding-left: 20px;
+    } .mini a{
+        color: grey;
+    }
+    .no-padding {
+        padding: 0!important;
+    }
+    .body-banner {
+        height: 300px;
+        border-bottom: 1px solid white;
+        background-color: white;
+        margin: 20px 0;
+    }
+</style>
+<body style="background: url('images/bg2.jpg');  background-repeat: no-repeat;
+    background-size: cover; padding: 0">
+<div class="row" style="height: 200px; padding: 15px 0  15px 0 ">
+    <div class="col-md-3" style="">
+
+    </div>
+    <div class="col-md-6" style="height: 100%; background-color: white; ">
+
+    </div>
+    <div class="col-md-3">
+    </div>
+</div>
+
 <!-- header-section-starts -->
-<div class="full_header">
-    <div class="full">
+<div class="full_header row">
+    <div class="col-md-2 banner-class">
+        <div style="height: 600px; width: 100%; background-color: white">
+            <p>banner</p>
+        </div>
+    </div>
+    <div class="col-md-8">
+
         <div class="menu">
             <ul>
                 <li><a class="active" href="index.html"><i class="home"></i></a></li>
@@ -42,24 +119,8 @@
                 </a></li>
             </ul>
         </div>
-        <div class="main">
-            <div class="header">
-                <div class="top-header">
-                    <div class="logo">
-                        <a href="index.html"><img src="images/logo.png" alt=""/></a>
-                        <p>Movie Theater</p>
-                    </div>
-                    <div class="search">
-                        <form>
-                            <input type="text" value="Search.." onfocus="this.value = '';"
-                                   onblur="if (this.value == '') {this.value = 'Search..';}"/>
-                            <input type="submit" value="">
-                        </form>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
+        <div class="main" style="background-color: #0b0b0b">
 
-            </div>
             <div class="review-slider">
                 <ul id="flexiselDemo1">
                     <li><img src="images/r1.jpg" alt=""/></li>
@@ -105,89 +166,280 @@
                 </script>
                 <script type="text/javascript" src="js/jquery.flexisel.js"></script>
             </div>
-            <div class="video">
-                <iframe src="https://www.youtube.com/embed/2LqzF5WauAw" frameborder="0" allowfullscreen></iframe>
-            </div>
-            <div class="news">
-                <div class="col-md-6 news-left-grid">
-                    <h3>Don’t be late,</h3>
-                    <h2>Book your ticket now!</h2>
-                    <h4>Easy, simple & fast.</h4>
-                    <a href="#"><i class="book"></i>BOOK TICKET</a>
-                    <p>Get Discount up to <strong>10%</strong> if you are a member!</p>
-                </div>
-                <div class="col-md-6 news-right-grid">
-                    <h3>News</h3>
-                    <div class="news-grid">
-                        <h5>Lorem Ipsum Dolor Sit Amet</h5>
-                        <label>Nov 11 2014</label>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo.</p>
+            <div class="content-grids row no-padding">
+                <div class="col-md-4 no-padding">
+                    <div class="leftblok_contener2">
+                            <!--leftblok1-->
+                        <div class="leftblok1">
+
+  <div class="miniblock">
+
+
+  <div class="mini" style="border-top:0px; padding-top:0px;">
+   <i style="font-size:14px;">Категории</i><br><br>
+    <a href="/biografiyi/">Биографии</a><br>
+	<a href="/boeviki/">Боевики</a><br>
+	<a href="/vesterny/">Вестерны</a><br>
+	<a href="/voennye/">Военные</a><br>
+	<a href="/detektivy/">Детективы</a><br>
+	<a href="/detskie/">Детские</a><br>
+	<a href="/dokumentalnye/">Документальные</a><br>
+	<a href="/dramy/">Драмы</a><br>
+	<a href="/istoricheskie/">Исторические</a><br>
+	<a href="/komedii/">Комедии</a><br>
+	<a href="/kriminal/">Криминал</a><br>
+	<a href="/melodramy/">Мелодрамы</a><br>
+	<a href="/multfilmy/">Мультфильмы</a><br>
+	<a href="/mjuzikly/">Мюзиклы</a><br>
+    <a href="/otechestvenie/">Отечественные</a><br>
+	<a href="/prikljuchenija/">Приключения</a><br>
+	<a href="/semejnye/">Семейные</a><br>
+	<a href="/sportivnye/">Cпортивные</a><br>
+	<a href="/trillery/">Триллеры</a><br>
+	<a href="/uzhasy/">Ужасы</a><br>
+	<a href="/fantastika/">Фантастика</a><br>
+	<a href="/fjentjezi/">Фэнтези</a>
+     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="padding-top:20px;"></div><!--div-->
+
+
+
+     </div><!--miniblock-->
+
+    <!--div-->
+
+</div>
+                            <!--leftblok2-->
+                        <div class="leftblok2">
+
+   <div class="miniblock">
+
+
+
+  <div class="mini" style="border-top:0px; padding-top:0px;">
+   <i style="font-size:14px;">По году</i><br><br>
+      <a href="/filmy_2015/">2015 года</a><br>
+      <a href="/filmi_2016/">2016 года</a><br>
+      <a href="/filmy_2017/">2017 года</a><br>
+ <div class="poloska"></div></div>
+
+
+
+
+
+
+
+
+
+
+ <div class="mini">
+<i style="font-size:14px;">По странам</i><br><br>
+
+     <a href="/amerikanskie_filmy/">Американские</a><br>
+     <a href="/anglijskie_filmy/">Британские</a><br>
+     <a href="/russkie_filmy/">Российские</a><br>
+     <a href="/indijskie_filmy/">Индийские</a><br>
+     <a href="/nemeckie_filmy/">Немецкие</a><br>
+     <a href="/francuzskie_filmy/">Французские</a>
+
+
+<div class="poloska"></div></div>
+
+
+
+ <div class="mini">
+<i style="font-size:14px;">Сериалы</i><br><br>
+<a href="/russkie_serialy/">Русские</a><br>
+<a href="/zarubezhnye_serialy/">Зарубежные</a><br>
+<a href="/turezkie_serialy/">Турецкие</a>
+       </div>
+
+
+     </div><!--miniblock-->
+
+
+
+
+</div>
                     </div>
-                    <div class="news-grid">
-                        <h5>Lorem Ipsum Dolor Sit Amet</h5>
-                        <label>Nov 11 2014</label>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo.</p>
+                </div>
+                <div class="col-md-8">
+                    <div class="col-md-12 body-banner" >
+
                     </div>
-                    <a class="more" href="#">MORE</a>
+                    <div class="content-grid col-md-4">
+                        <a class="play-icon popup-with-zoom-anim" href="#small-dialog"><img src="images/gridallbum2.jpg"
+                                                                                            title="allbum-name"/></a>
+                        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+                        <ul>
+                            <li><a href="#"><img src="images/likes.png" title="image-name"/></a></li>
+                            <li><a href="#"><img src="images/views.png" title="image-name"/></a></li>
+                            <li><a href="#"><img src="images/link.png" title="image-name"/></a></li>
+                        </ul>
+                        <a class="button play-icon popup-with-zoom-anim" href="#small-dialog">Watch now</a>
+                    </div>
+                    <div class="content-grid col-md-4">
+                        <a class="play-icon popup-with-zoom-anim" href="#small-dialog"><img src="images/gridallbum3.jpg"
+                                                                                            title="allbum-name"/></a>
+                        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+                        <ul>
+                            <li><a href="#"><img src="images/likes.png" title="image-name"/></a></li>
+                            <li><a href="#"><img src="images/views.png" title="image-name"/></a></li>
+                            <li><a href="#"><img src="images/link.png" title="image-name"/></a></li>
+                        </ul>
+                        <a class="button play-icon popup-with-zoom-anim" href="#small-dialog">Watch now</a>
+                    </div>
+                    <div class="content-grid col-md-4">
+                        <a class="play-icon popup-with-zoom-anim" href="#small-dialog"><img src="images/gridallbum4.jpg"
+                                                                                            title="allbum-name"/></a>
+                        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+                        <ul>
+                            <li><a href="#"><img src="images/likes.png" title="image-name"/></a></li>
+                            <li><a href="#"><img src="images/views.png" title="image-name"/></a></li>
+                            <li><a href="#"><img src="images/link.png" title="image-name"/></a></li>
+                        </ul>
+                        <a class="button play-icon popup-with-zoom-anim" href="#small-dialog">Watch now</a>
+                    </div>
+                    <div class="content-grid col-md-4">
+                        <a class="play-icon popup-with-zoom-anim" href="#small-dialog"><img src="images/gridallbum5.jpg"
+                                                                                            title="allbum-name"/></a>
+                        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+                        <ul>
+                            <li><a href="#"><img src="images/likes.png" title="image-name"/></a></li>
+                            <li><a href="#"><img src="images/views.png" title="image-name"/></a></li>
+                            <li><a href="#"><img src="images/link.png" title="image-name"/></a></li>
+                        </ul>
+                        <a class="button play-icon popup-with-zoom-anim" href="#small-dialog">Watch now</a>
+                    </div>
+                    <div class="content-grid col-md-4">
+                        <a class="play-icon popup-with-zoom-anim" href="#small-dialog"><img src="images/gridallbum6.jpg"
+                                                                                            title="allbum-name"/></a>
+                        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+                        <ul>
+                            <li><a href="#"><img src="images/likes.png" title="image-name"/></a></li>
+                            <li><a href="#"><img src="images/views.png" title="image-name"/></a></li>
+                            <li><a href="#"><img src="images/link.png" title="image-name"/></a></li>
+                        </ul>
+                        <a class="button play-icon popup-with-zoom-anim" href="#small-dialog">Watch now</a>
+                    </div>
+                    <div class="content-grid col-md-4">
+                        <a class="play-icon popup-with-zoom-anim" href="#small-dialog"><img src="images/gridallbum7.jpg"
+                                                                                            title="allbum-name"/></a>
+                        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+                        <ul>
+                            <li><a href="#"><img src="images/likes.png" title="image-name"/></a></li>
+                            <li><a href="#"><img src="images/views.png" title="image-name"/></a></li>
+                            <li><a href="#"><img src="images/link.png" title="image-name"/></a></li>
+                        </ul>
+                        <a class="button play-icon popup-with-zoom-anim" href="#small-dialog">Watch now</a>
+                    </div>
+                    <div class="content-grid col-md-4">
+                        <a class="play-icon popup-with-zoom-anim" href="#small-dialog"><img src="images/gridallbum8.jpg"
+                                                                                            title="allbum-name"/></a>
+                        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+                        <ul>
+                            <li><a href="#"><img src="images/likes.png" title="image-name"/></a></li>
+                            <li><a href="#"><img src="images/views.png" title="image-name"/></a></li>
+                            <li><a href="#"><img src="images/link.png" title="image-name"/></a></li>
+                        </ul>
+                        <a class="button play-icon popup-with-zoom-anim" href="#small-dialog">Watch now</a>
+                    </div>
+                    <div class="content-grid col-md-4">
+                        <a class="play-icon popup-with-zoom-anim" href="#small-dialog"><img src="images/gridallbum9.jpg"
+                                                                                            title="allbum-name"/></a>
+                        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+                        <ul>
+                            <li><a href="#"><img src="images/likes.png" title="image-name"/></a></li>
+                            <li><a href="#"><img src="images/views.png" title="image-name"/></a></li>
+                            <li><a href="#"><img src="images/link.png" title="image-name"/></a></li>
+                        </ul>
+                        <a class="button play-icon popup-with-zoom-anim" href="#small-dialog">Watch now</a>
+                    </div>
+                    <div class="content-grid col-md-4">
+                        <a class="play-icon popup-with-zoom-anim" href="#small-dialog"><img
+                                src="images/gridallbum10.jpg"
+                                title="allbum-name"/></a>
+                        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+                        <ul>
+                            <li><a href="#"><img src="images/likes.png" title="image-name"/></a></li>
+                            <li><a href="#"><img src="images/views.png" title="image-name"/></a></li>
+                            <li><a href="#"><img src="images/link.png" title="image-name"/></a></li>
+                        </ul>
+                        <a class="button play-icon popup-with-zoom-anim" href="#small-dialog">Watch now</a>
+                    </div>
+                    <div class="content-grid col-md-4">
+                        <a class="play-icon popup-with-zoom-anim" href="#small-dialog"><img
+                                src="images/gridallbum11.jpg"
+                                title="allbum-name"/></a>
+                        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+                        <ul>
+                            <li><a href="#"><img src="images/likes.png" title="image-name"/></a></li>
+                            <li><a href="#"><img src="images/views.png" title="image-name"/></a></li>
+                            <li><a href="#"><img src="images/link.png" title="image-name"/></a></li>
+                        </ul>
+                        <a class="button play-icon popup-with-zoom-anim" href="#small-dialog">Watch now</a>
+                    </div>
+                    <div class="content-grid col-md-4">
+                        <a class="play-icon popup-with-zoom-anim" href="#small-dialog"><img src="images/gridallbum1.jpg"
+                                                                                            title="allbum-name"/></a>
+                        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+                        <ul>
+                            <li><a href="#"><img src="images/likes.png" title="image-name"/></a></li>
+                            <li><a href="#"><img src="images/views.png" title="image-name"/></a></li>
+                            <li><a href="#"><img src="images/link.png" title="image-name"/></a></li>
+                        </ul>
+                        <a class="button play-icon popup-with-zoom-anim" href="#small-dialog">Watch now</a>
+                    </div>
+                    <div class="clearfix"></div>
+                    <!---start-pagenation----->
+                    <div class="pagenation">
+                        <ul>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li><a href="#">Next</a></li>
+                        </ul>
+                    </div>
+                    <div class="clearfix"></div>
                 </div>
-                <div class="clearfix"></div>
-            </div>
-            <div class="more-reviews">
-                <ul id="flexiselDemo2">
-                    <li><img src="images/m1.jpg" alt=""/></li>
-                    <li><img src="images/m2.jpg" alt=""/></li>
-                    <li><img src="images/m3.jpg" alt=""/></li>
-                    <li><img src="images/m4.jpg" alt=""/></li>
-                    <li><img src="images/m1.jpg" alt=""/></li>
-                    <li><img src="images/m2.jpg" alt=""/></li>
-                    <li><img src="images/m3.jpg" alt=""/></li>
-                    <li><img src="images/m4.jpg" alt=""/></li>
 
-                </ul>
-                <script type="text/javascript">
-                    $(window).load(function () {
-
-                        $("#flexiselDemo2").flexisel({
-                            visibleItems: 4,
-                            animationSpeed: 1000,
-                            autoPlay: true,
-                            autoPlaySpeed: 3000,
-                            pauseOnHover: false,
-                            enableResponsiveBreakpoints: true,
-                            responsiveBreakpoints: {
-                                portrait: {
-                                    changePoint: 480,
-                                    visibleItems: 2
-                                },
-                                landscape: {
-                                    changePoint: 640,
-                                    visibleItems: 3
-                                },
-                                tablet: {
-                                    changePoint: 768,
-                                    visibleItems: 3
-                                }
-                            }
-                        });
-                    });
-                </script>
-                <script type="text/javascript" src="js/jquery.flexisel.js"></script>
-            </div>
-            <div class="footer">
-                <h6>Disclaimer : </h6>
-                <p class="claim"></p>
-                <a href="example@mail.com">example@mail.com</a>
-                <div class="copyright">
-
-                </div>
+                <!---End-pagenation----->
             </div>
         </div>
     </div>
-    <div class="clearfix"></div>
+
+
+    <div class="col-md-2 banner-class">
+        <div style="height: 600px; width: 100%; background-color: white; margin: 0 auto">
+            <p>banner</p>
+        </div>
+    </div>
+
 </div>
+<div class="row" style="height: 200px; padding: 15px 0  15px 0 ">
+    <div class="col-md-3" style="">
+
+    </div>
+    <div class="col-md-6" style="height: 100%; background-color: white; ">
+
+    </div>
+    <div class="col-md-3">
+    </div>
+</div>
+
 </body>
 </html>
